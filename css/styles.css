@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+}
+
+form input[type=text], form input[type=email], form input[type=password], form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+form input[type=submit]:hover {
+   background-color: #45A049; /* Цвет при наведении */
+}
+
+.posts {
+   margin-top: 20px; /* Отступ сверху для списка постов */
+}
+
+.post-title {
+   font-size: 24px; /* Размер заголовка */
+   color: #333; /* Цвет заголовка */
+}
+
+.post-content {
+   font-size: 16px; /* Размер текста */
+   color: #666; /* Цвет текста */
+   margin-bottom: 15px; /* Отступ снизу */
+}
+
+.edit-link, .delete-link {
+   color: #007BFF; /* Цвет ссылок редактирования и удаления */
+   text-decoration: none; /* Убираем подчеркивание */
+}
+
+.edit-link:hover, .delete-link:hover {
+   text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.pagination {
+   margin-top: 20px; /* Отступ сверху для пагинации */
+}
